@@ -6,30 +6,31 @@ public class Product {
     private double price;
     private int quantity;
 
-    //Construtores
     public Product() {
-
     }
-    //Estudo sobre sobrecarga 3 atributos
+
     public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
-    //Sobrecarga 2 atributos
     public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
-    public void setName(String name) {
-        this.name = name;
-    }
+
     public String getName() {
         return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public double getPrice() {
         return price;
     }
+
     public void setPrice(double price) {
         this.price = price;
     }
