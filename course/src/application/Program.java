@@ -10,14 +10,14 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+
+
         Product product = new Product();
         System.out.println("Entre com dados do produto: ");
         System.out.print("Nome: ");
         product.name = sc.nextLine();
         System.out.print("Preço: ");
         product.price = sc.nextDouble();
-        System.out.print("Quantidade: ");
-        product.quantity = sc.nextInt();
 
         System.out.println("Dados do produto: "+ product);
 
