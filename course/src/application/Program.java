@@ -15,15 +15,18 @@ public class Program {
         String name = sc.nextLine();
         System.out.print("Preço: ");
         Double price = sc.nextDouble();
-        System.out.print("Quantidade: ");
-        Integer quantity = sc.nextInt();
+        Product product = new Product(name,price);
 
-        Product product = new Product(name,price,quantity);
+        product.setName("Computador");
+        System.out.println("Nome atualizado: " + product.getName());
+        product.setPrice(1200.00);
+        System.out.println("Preço atualizado: " + product.getPrice());
 
+        System.out.println();
         System.out.println("Dados do produto: "+ product);
 
         System.out.println("Entre com o numero de produtos que sera adicionado ao estoque:");
-        quantity = sc.nextInt();
+        int quantity= sc.nextInt();
         product.addProduct(quantity);
         System.out.println("Dados atualizados: "+ product);
 
