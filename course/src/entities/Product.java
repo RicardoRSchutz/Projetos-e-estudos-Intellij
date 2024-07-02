@@ -8,7 +8,6 @@ public class Product {
 
     public Product() {
     }
-
     public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
@@ -19,6 +18,7 @@ public class Product {
         this.price = price;
     }
 
+    //Getters e Settes
     public String getName() {
         return name;
     }
@@ -39,24 +39,25 @@ public class Product {
         return quantity;
     }
 
-    //Logica de calculo preço x quantidade
+    //Logica e condiçoes
+
     public double totalValueInStock() {
         return price * quantity;
     }
-    // Logica de adição de produto
+
     public void addProduct(int quantity){
         this.quantity += quantity;
     }
-    //Logica de remoção de produto
     public void removeProduct(int quantity){
         this.quantity -= quantity;
     }
 
-    public String toString(){
-        return name + ", $"
-                + String.format("%.2f",price)+ ", "
-                + quantity+" units, Total: $"
-                + String.format("%.2f",totalValueInStock());
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                '}';
     }
-
 }
