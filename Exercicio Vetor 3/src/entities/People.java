@@ -1,10 +1,9 @@
 package entities;
 
-public class Pessoas {
-
+public class People {
     private String nome;
-    private Integer idade;
-    private Double altura;
+    private int idade;
+    private double altura;
 
     public String getNome() {
         return nome;
@@ -32,7 +31,7 @@ public class Pessoas {
 
     @Override
     public String toString() {
-        return "Pessoas{" +
+        return "People{" +
                 "nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", altura=" + altura +

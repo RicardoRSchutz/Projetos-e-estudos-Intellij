@@ -27,7 +27,7 @@ public class Program {
         }
         double somaAltura = 0;
         for (int i = 0; i < n; i++) {
-            somaAltura = somaAltura + alturas[i];
+            somaAltura += alturas[i];
         }
         double alturaMedia = somaAltura / n;
         System.out.println();
