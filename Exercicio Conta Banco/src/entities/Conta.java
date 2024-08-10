@@ -30,7 +30,8 @@ public class Conta {
     public double getSaldo() {
         return saldo;
     }
-    //Logicas
+
+    //Metodos
     public void deposito(double valor) {
         this.saldo += valor;
     }
