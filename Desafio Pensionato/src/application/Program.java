@@ -11,8 +11,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
 
-
-        Rent[] vect = new Rent[10];
+        Rent[] vect = new Rent[16];
 
         System.out.println("How many rooms will be rented? ");
         int n = sc.nextInt();
@@ -32,7 +31,7 @@ public class Program {
         }
         System.out.println();
         System.out.println("Busy rooms:");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 16; i++) {
             System.out.println(vect[i]);
         }
 

@@ -36,7 +36,7 @@ public class Conta {
         this.saldo += valor;
     }
     public void sacar(double valor) {
-        this.saldo -= valor + 5;
+        this.saldo -= (valor + 5);
     }
 
     @Override

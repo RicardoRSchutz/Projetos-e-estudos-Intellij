@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Contratos/Contratos.iml" filepath="$PROJECT_DIR$/Contratos/Contratos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafio Pensionato/Desafio Pensionato.iml" filepath="$PROJECT_DIR$/Desafio Pensionato/Desafio Pensionato.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio 1/Exercicio 1.iml" filepath="$PROJECT_DIR$/Exercicio 1/Exercicio 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio 2/Exercicio 2.iml" filepath="$PROJECT_DIR$/Exercicio 2/Exercicio 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio Conta Banco/Exercicio Conta Banco.iml" filepath="$PROJECT_DIR$/Exercicio Conta Banco/Exercicio Conta Banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio Listas/Exercicio Listas.iml" filepath="$PROJECT_DIR$/Exercicio Listas/Exercicio Listas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio Matriz/Exercicio Matriz.iml" filepath="$PROJECT_DIR$/Exercicio Matriz/Exercicio Matriz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicio Sobre Blog/Exercicio Sobre Blog.iml" filepath="$PROJECT_DIR$/Exercicio Sobre Blog/Exercicio Sobre Blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio Vetor 3/Exercicio Vetor 3.iml" filepath="$PROJECT_DIR$/Exercicio Vetor 3/Exercicio Vetor 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio3/Exercicio3.iml" filepath="$PROJECT_DIR$/Exercicio3/Exercicio3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios Vetores 1/Exercicios Vetores 1.iml" filepath="$PROJECT_DIR$/Exercicios Vetores 1/Exercicios Vetores 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios Vetores 3/Exercicios Vetores 3.iml" filepath="$PROJECT_DIR$/Exercicios Vetores 3/Exercicios Vetores 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios Vetores 2/Exercicios vetores 2.iml" filepath="$PROJECT_DIR$/Exercicios Vetores 2/Exercicios vetores 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modelo Simples vetor/Modelo Simples vetor.iml" filepath="$PROJECT_DIR$/Modelo Simples vetor/Modelo Simples vetor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Projetos-e-estudos-Intellij.iml" filepath="$PROJECT_DIR$/.idea/Projetos-e-estudos-Intellij.iml" />
       <module fileurl="file://$PROJECT_DIR$/course/course.iml" filepath="$PROJECT_DIR$/course/course.iml" />
       <module fileurl="file://$PROJECT_DIR$/course2/course2.iml" filepath="$PROJECT_DIR$/course2/course2.iml" />
       <module fileurl="file://$PROJECT_DIR$/course3/course3.iml" filepath="$PROJECT_DIR$/course3/course3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course4/course4.iml" filepath="$PROJECT_DIR$/course4/course4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course5/course5.iml" filepath="$PROJECT_DIR$/course5/course5.iml" />
     </modules>
   </component>
 </project>

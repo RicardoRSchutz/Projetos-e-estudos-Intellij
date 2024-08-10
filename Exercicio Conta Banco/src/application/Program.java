@@ -40,5 +40,7 @@ public class Program {
         System.out.println("Entre com o valor a ser sacado: ");
         double valorSacado = sc.nextDouble();
         sc.close();
+
+        System.out.println("Saldo atual: " + conta.getSaldo());
     }
 }
